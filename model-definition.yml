@@ -50,14 +50,15 @@ spec:
         description: Any data files which are to be clipped. Should match common data formats (rasters - .asc, .tiff, .geotiff; vector - .gpkg, .shp . geojson)
         path: inputs/clip
         required: true
-        default:          
-          - 4df3de89-8247-4af2-bf7a-9691725638a8
-          - c89bccad-e2fa-47af-97f5-fbd02310d821
-          - 1e499f20-f3ad-4478-862a-d739c4b01a98
-          - c7ebee47-403b-4896-bf71-55ec788994c1
-          - 0389de5e-2330-4e1c-aa04-0264d6715d0b
-          - a3173061-2a02-4996-a942-405fc4f63568
-          - cfb46a04-d529-480a-b53c-06453ead011a
+        default: 
+          - 0e02e891-286d-4973-a647-d0af19935d55
+          - c66b2439-47e9-4cf8-b9c3-b1d9f061a9cb
+          - 535ad7ad-ac1a-47ea-8a84-ff27156fd96b
+          - fbce49c1-8f70-4304-8854-e8f89f5a4c1c
+          - e190d35d-4fd9-4c9e-98e5-4f9d01ee9c24
+          - 270a7199-a0e1-4eaf-acb2-4f22e8836df0
+          - e8beb36f-dc71-4f21-a8e7-368355319f9e
+          - 67f5fb08-fb83-45a2-a99d-0afab6ca0fb7
       - name: Clip extent file
         description: Either a spatial file to clip the input data with (GeoPackage or shapefile) or a text file defining the extent of the bounding box for the clip process.
         path: inputs/clip_extent
